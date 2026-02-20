@@ -1,0 +1,24 @@
+# Secrets and private keys
+**/.ssh/**
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+
+# Histories and volatile local state
+**/.bash_history
+**/.viminfo
+**/.lesshst
+**/.netrwhist
+**/.python_history
+
+# Host-specific known hosts and backups
+**/known_hosts
+**/known_hosts.old
+**/*.bak
+**/*.bak.*
+**/*~
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
